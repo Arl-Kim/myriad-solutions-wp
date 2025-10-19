@@ -54,3 +54,15 @@ textarea:focus {
 #dev_link:hover {
   color: #6f4b33 !important;
 }
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 520px) {
+  .footer {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+}
