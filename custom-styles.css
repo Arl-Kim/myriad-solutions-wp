@@ -55,8 +55,24 @@ textarea:focus {
   color: #6f4b33 !important;
 }
 
+span.et_pb_scroll_top {
+  background: #dac0af !important;
+  color: #110c08 !important;
+  border-radius: 0 !important;
+  transition: all 400ms ease-in-out;
+}
+
+span.et_pb_scroll_top:hover {
+  background: #dac0af !important;
+  color: #110c08 !important;
+}
+
 /* RESPONSIVE BREAKPOINTS */
 @media (max-width: 520px) {
+  .btn-responsive {
+    position: unset !important;
+  }
+
   .footer {
     display: flex !important;
     flex-direction: column !important;
