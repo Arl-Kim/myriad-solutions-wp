@@ -3,6 +3,7 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: auto !important;
 }
 
 body {
@@ -113,6 +114,12 @@ span.et_pb_scroll_top:hover {
 }
 
 /* RESPONSIVE BREAKPOINTS */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: auto !important;
+  }
+}
+
 @media (max-width: 520px) {
   .btn-responsive {
     position: unset !important;
