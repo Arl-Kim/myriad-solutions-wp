@@ -1,0 +1,56 @@
+/* General Additional Styles */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: auto !important;
+}
+
+body {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard */
+}
+
+button,
+a {
+  border: none;
+  border-radius: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transition: all 400ms ease-in-out;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+textarea {
+  resize: none !important;
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+/* Main Navigation Additional Styles */
+.menu-link[href="https://dev.myriadsolutionss.com/get-started/"]
+{
+  background-color: #6f4b33 !important;
+  color: #f7f1ee !important;
+  padding: 10px 20px;
+  max-height: 50px;
+  margin: 0 0 0 30px;
+}
+
+.menu-link[href="https://dev.myriadsolutionss.com/get-started/"]:hover
+{
+  background-color: #f7f1ee !important;
+  color: #6f4b33 !important;
+}
