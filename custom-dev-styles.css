@@ -54,3 +54,12 @@ textarea:focus {
   background-color: #f7f1ee !important;
   color: #6f4b33 !important;
 }
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 768px) {
+  .menu-link[href="https://dev.myriadsolutionss.com/get-started/"]
+  {
+    padding: 10px !important;
+    margin: 0 !important;
+  }
+}
