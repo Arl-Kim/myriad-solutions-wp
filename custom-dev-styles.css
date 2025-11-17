@@ -60,8 +60,14 @@ textarea:focus {
   .menu-link[href="https://dev.myriadsolutionss.com/get-started/"]
   {
     background-color: #fff !important;
-    color: #110C08 !important;
-    padding: 0 !important;
+    color: #110c08 !important;
+    padding: 20px !important;
     margin: 0 !important;
+  }
+
+  .menu-link[href="https://dev.myriadsolutionss.com/get-started/"]:hover
+  {
+    background-color: #f7f1ee !important;
+    color: #6f4b33 !important;
   }
 }
