@@ -59,7 +59,9 @@ textarea:focus {
 @media (max-width: 768px) {
   .menu-link[href="https://dev.myriadsolutionss.com/get-started/"]
   {
-    padding: 10px !important;
+    background-color: #fff !important;
+    color: #110C08 !important;
+    padding: 0 !important;
     margin: 0 !important;
   }
 }
